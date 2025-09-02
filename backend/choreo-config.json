@@ -1,0 +1,36 @@
+{
+  "configs": {
+    "env": [
+      {
+        "name": "DATABASE_URL",
+        "value": "sqlite:///./database.db",
+        "type": "string",
+        "description": "Database connection string"
+      },
+      {
+        "name": "API_PREFIX",
+        "value": "/api",
+        "type": "string",
+        "description": "Base API route prefix"
+      },
+      {
+        "name": "DEBUG",
+        "value": "True",
+        "type": "string",
+        "description": "Enable debug mode (True/False)"
+      },
+      {
+        "name": "ALLOWED_ORIGINS",
+        "value": "https://localhost:3000,https://localhost:5173,http://localhost:5174",
+        "type": "string",
+        "description": "Allowed CORS origins"
+      },
+      {
+        "name": "GOOGLE_API_KEY",
+        "value": "",
+        "type": "secret",
+        "description": "Google Gemini API key"
+      }
+    ]
+  }
+}
