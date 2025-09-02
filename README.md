@@ -18,7 +18,7 @@ A full-stack AI storytelling platform that allows users to generate, explore, an
 
 ## 🛠️ Installation & Setup
 
-1. Clone the repository:
+
 
 ```bash
 git clone https://github.com/arpitsharma1306/Make-your-own-story-AI.git
